@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Проект Тимофеевой Варвары</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="/js/auto_width.js" ></script>
+<style >
+
+	@font-face {
+	   font-family: 'Merriweather-Italic'; 
+	   src: url('../Fonts/Merriweather-Italic.ttf'); 
+}
+	
+body {
+  background: url('video.png');
+  background-size: cover;
+}
+
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
+
+
+	body{
+		background-image: url(img/3.jpg);
+		background-size: cover;
+        background-repeat: no-repeat;
+	}
+
+
+      button {
+      background-color: #318CE7;
+      border: none;
+      color: white;
+      padding: 20px 34px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+     font-family: 'Merriweather-Italic'; 
+      margin: 4px 2px;
+      cursor: pointer;
+       border-radius: 15px;
+
+
+      }
+
+      button:hover {
+      background-color:#0045E7;
+      transition: 0.9s;
+  }
+
+
+     
+
+
+      @media screen and (max-width: 1199px) {
+        
+       button{
+       	padding: 5px 24px;
+       	margin: 10px;
+} 
+
+      .grup{
+      	margin-top: 50px;
+      }  
+}
+    
+
+</style>
+
+</head>
+<body>
+
+
+	 <video autoplay loop muted class="bgvideo" id="bgvideo">
+   <source src="video/FPV Dron Peter and Paul Fortress Saint Petersburg.mp4" type="video/mp4"></source>
+  </video>
+
+	<div class="grup">  
+
+	<form action="zajchij_ostrov.html">
+      <button type="submit">Заячий остров</button>
+    </form>
+
+    <form action="Petropavlovskaya krepost.html">
+      <button type="submit">Петропавловская крепость</button>
+    </form>
+    <form action="Ioanovskie_vorota.html">
+      <button type="submit">Иоанновские ворота</button>
+    </form>
+    <form action="Petrovskie_vorota.html">
+      <button type="submit">Петровские ворота</button>
+    </form>
+    <form action="Pamyatnik_Petru.html">
+      <button type="submit">Памятник Петру</button>
+    </form>
+    <form action="Petropavlovskij_sobor.html">
+      <button type="submit">Петропавловский собор</button>
+    </form>
+    <form action="Botnyj_dom.html">
+      <button type="submit">Ботный дом</button>
+    </form>
+    <form action="Monetnyj_dvor.html">
+      <button type="submit">Монетный двор</button>
+    </form>
+
+    </div>
+
+
+	
+</body>
+</html>
